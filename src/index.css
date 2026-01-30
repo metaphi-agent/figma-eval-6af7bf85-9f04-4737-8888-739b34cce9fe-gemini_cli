@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --font-epilogue: "Epilogue", sans-serif;
+  
+  --color-primary-900: #151D48;
+  --color-primary-800: #1E293B; /* Approximate fallback */
+  
+  /* Colors from Figma styles */
+  --color-background: #FAFBFC;
+  --color-card: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-primary-900);
+  -webkit-font-smoothing: antialiased;
+}
